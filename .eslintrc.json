@@ -1,40 +1,38 @@
 {
-  "env": {
+    "env": {
       "browser": true,
       "es2021": true
-  },
-  "extends": [
+    },
+    "extends": [
       "eslint:recommended",
       "plugin:react/recommended",
+      "plugin:react-hooks/recommended",
       "plugin:@typescript-eslint/recommended",
       "prettier"
-  ],
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
       "ecmaFeatures": {
-          "jsx": true
+        "jsx": true
       },
       "ecmaVersion": "latest",
       "sourceType": "module"
-  },
-  "plugins": [
+    },
+    "plugins": [
       "react",
       "react-hooks",
       "@typescript-eslint",
       "prettier"
-  ],
-  "rules": {
+    ],
+    "rules": {
       "react/react-in-jsx-scope": "off",
-      "spaced-comment": "error",
       "quotes": ["error", "single"],
-      "no-duplicate-imports": "error"
-  },
-  "settings": { 
-    "import/parsers": {
-      "@typescript-eslint/parser": [".ts", ".tsx", ".js"] 
-    }, 
-    "import/resolver": { 
-      "typescript": "./tsconfig.json" 
+      "no-duplicate-imports": "error",
+      "prettier/prettier": "error"
+    },
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
     }
-  }
-}
+  }  
