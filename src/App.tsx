@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
-import reactLogo from './assets/react.svg';
-import viteLogo from '../public/vite.svg';
-import './App.css';
+import reactLogo from './assets/react.svg'
+import viteLogo from './assets/vite.svg'
+import './App.css'
 
 // Home 페이지 컴포넌트
 function Home() {
@@ -10,7 +10,7 @@ function Home() {
     <div className="flex justify-center items-center h-full">
       <h1 className="text-3xl font-bold">Welcome to the Home Page!</h1>
     </div>
-  );
+  )
 }
 
 // About 페이지 컴포넌트
