@@ -11,14 +11,14 @@ const RAW_RUNTIME_STATE =
   ],\
   "dependencyTreeRoots": [\
     {\
-      "name": "my-app",\
+      "name": "moonrabbit_web",\
       "reference": "workspace:."\
     }\
   ],\
   "enableTopLevelFallback": true,\
   "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
   "fallbackExclusionList": [\
-    ["my-app", ["workspace:."]]\
+    ["moonrabbit_web", ["workspace:."]]\
   ],\
   "fallbackPool": [\
   ],\
@@ -3536,11 +3536,11 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["my-app", [\
+    ["moonrabbit_web", [\
       ["workspace:.", {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["my-app", "workspace:."],\
+          ["moonrabbit_web", "workspace:."],\
           ["@eslint/js", "npm:9.22.0"],\
           ["@types/react", "npm:19.0.12"],\
           ["@types/react-dom", "virtual:ddccc941eb8b35cd4b898a64351d8bba4ecc85eb47e8f1b36dce7852d6c3635665e0fc5464861f723d175edb2248ce0fa54dfefb9b5e4d2fdaef4b2353c4aa82#npm:19.0.4"],\
