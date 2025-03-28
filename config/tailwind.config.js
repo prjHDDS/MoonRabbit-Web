@@ -18,7 +18,13 @@ module.exports = {
           mainBlack: '17171B',
           subBlack: '26262D',
           mainGray: 'A8A8A8',
-        }
+        },
+        fontFamily: {
+          mainFont: ['HSBombaram2.1'],
+          malgun: ['Malgun Gothic'],
+          segoeSymbol: ['Segoe UI Symbol'],
+          segoeUI: ['Segoe UI'],
+        },
       },
     },
     plugins: [
